@@ -8,7 +8,7 @@ def add_todo():
     todos.append(todo) 
     functions.write_todos(todos)
 
-st.title('Список покупок на новый год:')
+st.title('My ToDo app:')
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
